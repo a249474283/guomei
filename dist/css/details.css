@@ -1,0 +1,124 @@
+
+.details{
+	width: 100%;
+	height: 900px;
+	background: #eee;
+}
+.details .neirong{
+	width: 1200px;
+	height: 900px;
+	margin: 0 auto;
+	background: #fff;
+}
+.details .neirong ._left{
+	width: 600px;
+	height: 900px;
+	float: left;
+}
+
+.imgbox{
+	position:relative;
+	margin-left:100px;
+}
+.probox{
+	width:300px;
+	height:300px;
+	border:1px solid #000;
+}
+.probox img{
+	width:300px;
+	height:300px;
+	vertical-align:top;
+}
+.showbox{
+	display:none;
+	position:absolute;
+	left:303px;
+	top:0;
+	width:400px;
+	height:300px;
+	overflow:hidden;
+	border:1px solid #ccc;
+}
+.showbox img{
+	position:absolute;
+	height:1200px;
+	width:1200px;
+}
+.hoverbox{
+	display:none;
+	position:absolute;
+	top:0;
+	background:#09f;
+	border:1px solid #09f;
+	height:75px;
+	width:100px;
+	cursor:move;
+	z-index:10;
+}
+
+.details .neirong ._right{
+	width: 600px;
+	height: 900px;
+	float: right;
+}
+
+.details .neirong ._right .name{
+	font-size: 16px;
+	color: #333;
+	font-weight: 700;
+	margin-left: -20px;
+	width: 400px;
+}
+.details .neirong ._right .jianjie{
+	margin-top: 10px;
+	margin-left: 30px;
+	font-size: 14px;
+	color: #666;
+	
+}
+.details .neirong ._right .jiage{
+	font-size: 24px;
+	color: #f00;
+	margin-left: 40px;
+}
+.details .neirong ._right .pingfen{
+	color: #f00;
+	font-size: 30px;
+}
+.details .neirong ._right .submit{
+	display: block;
+	width: 200px;
+	height: 40px;
+	border: 1px solid #f00;
+	background: #FF7612;
+	color: #fff;
+	font-weight: 600;
+}
+
+.details .neirong ._right .number{
+	width: 150px;
+	height: 50px;
+	border: 1px solid #cecece;
+}
+.details .neirong ._right .number1{
+	width:50px;
+	height:50px;
+	display: block;
+	float: left;
+}
+.details .neirong ._right .cunshu{
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	line-height: 50px;
+	display: block;
+	text-align: center;
+	float: left;
+}
+.details .neirong ._right .number2{
+	width:50px;
+	height:50px;
+	display: block;
+	float: left;
+}

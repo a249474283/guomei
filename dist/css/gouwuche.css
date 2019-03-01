@@ -1,0 +1,14 @@
+.gouwu .gnumber{
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 2px;
+	top: -18px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	background: #f00;
+	border-radius:15px;
+}

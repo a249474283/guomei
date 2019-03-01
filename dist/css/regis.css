@@ -1,0 +1,318 @@
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+img{
+	display: block;
+}
+h1,input{
+	margin: 0;
+	padding: 0;
+}
+input{
+	display: block;
+	border: none;
+}
+
+header{
+	width: 100%;
+	height: 56px;
+	margin-top: 35px;
+	margin-bottom: 58px;
+}
+header .neirong{
+	width: 990px;
+	height: 56px;
+	margin: 0 auto;
+}
+section{
+	width: 100%;
+	height: 690px;
+}
+section .neirong{
+	width: 990px;
+	height: 690px;
+	margin: 0 auto;
+	position: relative;
+}
+section .neirong ._right{
+	color: #5e5e5e;
+	width: 150px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 12px;
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+section .neirong ._right a{
+	font-size: 14px;
+}
+section .neirong .ger{
+	display: block;
+	width: 150px;
+	height: 40px;
+	border: 1px solid #f00;
+	line-height: 40px;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 100px;
+}
+section .neirong .zhuce{
+	width: 990px;
+	height: 580px;
+	border: 1px solid #e6e6e6;
+}
+section .neirong .zhuce form{
+	width: 515px;
+	height: 580px;
+	float: left;
+	font-size: 16px;
+	color: #cecece;
+	line-height: 40px;
+}
+section .neirong .zhuce .right{
+	width: 475px;
+	height: 580px;
+	float: right;
+}
+section .neirong .zhuce .right img{
+	width: 348px;
+	height: 259px;
+	float: right;
+}
+section .neirong .zhuce form input{
+	width: 300px;
+	height: 40px;
+	border: 1px solid #cecece;
+	float: left;
+}
+section .neirong .zhuce form span{
+	display: block;
+	height: 40px;
+	float: left;
+}
+section .neirong .zhuce form div{
+	height: 40px;
+	width: 900px;
+	float: left;
+	margin: 13px 0;
+	padding-left: 50px;
+}
+section .neirong .zhuce form div:nth-of-type(1){
+	padding-left: 115px;
+}
+section .neirong .zhuce form div:nth-of-type(2){
+	padding-left: 100px;
+}
+section .neirong .zhuce form div:nth-of-type(3){
+	padding-left: 100px;
+}
+section .neirong .zhuce form div:nth-of-type(4){
+	padding-left: 131px;
+}
+section .neirong .zhuce form div:nth-of-type(4) input{
+	width:15px;
+	height: 15px;
+	line-height: 40px;
+	margin-top: 14px;
+	margin-right: 5px;
+}
+strong{
+	display: block;
+	height: 40px;
+	width:20px;
+	font-size: 16px;
+	float: left;
+	line-height: 40px;
+}
+section .neirong .zhuce form div:nth-of-type(5){
+	padding-left: 131px;
+}
+section .neirong .zhuce form #submit{
+	background: #ff5757;
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 20px;
+}
+section .neirong .zhuce form .tishi{
+	height: 40px;
+	display: none;
+	float: left;
+	border: 1px solid #cecece;
+	color: #cecece;
+	line-height: 40px;
+	font-size: 12px;
+	position: relative;
+	background: #fff;
+	z-index: 3;
+}
+
+
+
+.guang{
+	width: 100%;
+	height: 72px;
+}
+.guang .neirong{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+	padding: 16px 0;
+	background: #f5f5f5;
+}
+.guang .neirong figure{
+	width: 290px;
+	height: 40px;
+	float: left;
+	margin: 0 55px;
+}
+.guang .neirong figure a:first-of-type{
+	display: block;
+	float: left;
+	height: 40px;
+	width: 45px;
+	font-size: 18px;
+	padding-left: 50px;
+	background: url(../img/pinzhi.gif) no-repeat left center;
+	line-height: 40px;
+}
+.guang .neirong figure span{
+	display: block;
+	width: 35px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+.guang .neirong figure a:last-of-type{
+	width: 150px;
+	height: 40px;
+	display: block;
+	float: left;
+	line-height: 40px;
+}
+
+/* guang end */
+
+.wuliu{
+	width: 100%;
+	height: 165px;
+	border-bottom: 1px solid #dd00a7;
+}
+.wuliu .neirong{
+	width: 1200px;
+	height: 165px;
+	margin: 0 auto;
+}
+.wuliu .neirong ul{
+	width: 115px;
+	height: 135px;
+	margin: 14px 60px;
+	float: left;
+}
+.wuliu .neirong ul li{
+	width: 115px;
+	font-size: 12px;
+	height: 22px;
+	line-height: 22px;
+}
+.wuliu .neirong ul li:first-of-type{
+	font-size: 16px;
+	height: 26px;
+	line-height: 26px;
+}
+.wuliu .neirong ul li a{
+	color: #a5a5a5;
+}
+/* wuliu end */
+
+
+
+
+
+
+
+footer{
+	width: 100%;
+	height: 293px;
+	background: #f7f7f7;
+}
+footer .neirong{
+	width: 1200px;
+	height: 273px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+footer .neirong .mendian{
+	display: block;
+    padding: 0 50px 40px 0;
+	float: left;
+	width: 400px;
+	height: 45px;
+}
+footer .neirong .mendian i{
+	display: block;
+	float:left;
+	width: 45px;
+	height: 45px;
+}
+footer .neirong .mendian p{
+	display: block;
+	float: left;
+	width: 160px;
+	height: 45px;
+	margin-left: 10px;
+}
+footer .neirong .mendian p strong{
+	height: 25px;
+	width: 130px;
+	display: block;
+	font-size: 14px;
+}
+footer .neirong .mendian p a{
+	font-size: 12px;
+	color: #cecece;
+}
+footer .neirong .mendian p a:hover{
+	color: #f00;
+}
+footer .neirong .erweim {
+	width: 250px;
+	height: 110px;
+	float: right;
+}
+footer .neirong .erweim img{
+	float: left;
+	margin: 0 10px;
+}
+footer .neirong .footnav{
+	width: 820px;
+	height: 18px;
+	float: left;
+	margin: 6px 0;
+}
+footer .neirong .footnav li{
+	float: left;
+	margin: 0 5px;
+}
+footer .neirong .footnav li a{
+	color:#666;
+	font-size: 12px;
+}
+footer .neirong .footnav li a:hover{
+	color: #f00;
+}
+footer .neirong p{
+	float: left;
+	color: #bfa4a4;
+	font-size: 12px;
+	margin: 6px 0;
+	margin: 5px;
+}
+footer .neirong .tu{
+	width: 1200px;
+	border-top: 1px solid #e6e6e6;
+}

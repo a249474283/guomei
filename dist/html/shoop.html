@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>购物车</title>
+		<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="../js/cookie.js"></script>
+		<script src="../js/shoop.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/gouwuch.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="../css/heard.css" />
+		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/shoop.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/gouwuche.css"/>
+		
+	</head>
+	<body>
+		<header>
+					<div class="neirong">
+						<ul class="_left">
+							<li>
+								<a href="#">国美会员</a>
+								<span>v</span>
+							</li>
+							<li>
+								<a href="../login.html" target="_blank">登录</a>
+							</li>
+							<li>
+								<a href="regis.html" target="_blank">注册有礼</a>
+							</li>
+						</ul>
+						<ul class="_right">	
+							<li>
+								<a href="#">
+									我的订单
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									我的国美 v
+								</a>
+							</li>	
+							<li>	
+								<a href="#">
+									企业采购 v
+								</a>
+								<div class="qiyecaigou">
+									<img src="../img/erweima.png" />
+								</div>
+							</li>
+							
+							<li>	
+								<a href="#">
+									服务中心 v
+								</a>
+							</li>	
+							<li>
+								<a href="#">
+									网站导航 v
+								</a>
+							</li>	
+							<li>
+								<a href="#">
+									手机国美 v
+								</a>
+							</li>
+						</ul>
+					</div>
+				</header>
+				<!-- 以上是头部导航 -->
+				<section>
+					<div class="neirong">
+						<h1>
+							<img src="../img/logo.jpg" class="logo"/>
+							<img src="../img/zhanwei.jpg" class="zhanwei" />
+						</h1>
+						<form>
+							<div>商品v</div>
+							<input type="text" id="tex" placeholder="冰箱" />
+							<input type="button" class="sousuo" value="搜索" />
+							<ul id="sousuol"></ul>
+						</form>
+						<ul class="nnav">
+							<li><a href="../index.html">厨房卫浴</a></li>
+							<li><a href="../index.html">优惠购金</a></li>
+							<li><a href="../index.html">小米专场</a></li>
+							<li><a href="../index.html">美赞臣</a></li>
+							<li><a href="../index.html">海尔冰箱</a></li>
+							<li><a href="../index.html">空调减800</a></li>
+							<li><a href="../index.html">大屏彩电</a></li>
+							<li><a href="../index.html">购机送话费</a></li>
+						</ul>
+						<div class="gouwu">我的购物车<p class="jiao"></p></div>
+					</div>
+				</section>
+				<!-- 以上是section -->
+				<div class="shoop">
+					<div class="neirong">
+						<table border="1" cellspacing="0" id="shang">
+							<tr>
+								<td>商品图片</td>
+								<td>商品名字</td>
+								<td>单价</td>
+								<td>数量</td>
+								<td>合计</td>
+								<td>删除</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				
+				
+				
+				
+				
+				<div class="guang">
+							<div class="neirong">
+								<figure>
+									<a href="#">品质</a>
+									<span>·</span>
+									<a href="#">正品行货 购物无忧</a>
+								</figure>
+								<figure>
+									<a href="#">品质</a>
+									<span>·</span>
+									<a href="#">正品行货 购物无忧</a>
+								</figure>
+								<figure>
+									<a href="#">品质</a>
+									<span>·</span>
+									<a href="#">正品行货 购物无忧</a>
+								</figure>
+							</div>
+						</div>
+						<!-- 以上是guang -->
+						<div class="wuliu">
+							<div class="neirong">
+								<ul>
+									<li>配送服务</li>
+									<li><a href="#">配送查询</a></li>
+									<li><a href="#">配送服务</a></li>
+									<li><a href="#">配送费用</a></li>
+									<li><a href="#">配送时效</a></li>
+									<li><a href="#">签收和验货</a></li>
+								</ul>
+								<ul>
+									<li>配送服务</li>
+									<li><a href="#">配送查询</a></li>
+									<li><a href="#">配送服务</a></li>
+									<li><a href="#">配送费用</a></li>
+									<li><a href="#">配送时效</a></li>
+									<li><a href="#">签收和验货</a></li>
+								</ul>
+								<ul>
+									<li>配送服务</li>
+									<li><a href="#">配送查询</a></li>
+									<li><a href="#">配送服务</a></li>
+									<li><a href="#">配送费用</a></li>
+									<li><a href="#">配送时效</a></li>
+									<li><a href="#">签收和验货</a></li>
+								</ul>
+								<ul>
+									<li>配送服务</li>
+									<li><a href="#">配送查询</a></li>
+									<li><a href="#">配送服务</a></li>
+									<li><a href="#">配送费用</a></li>
+									<li><a href="#">配送时效</a></li>
+									<li><a href="#">签收和验货</a></li>
+								</ul>
+								<ul>
+									<li>配送服务</li>
+									<li><a href="#">配送查询</a></li>
+									<li><a href="#">配送服务</a></li>
+									<li><a href="#">配送费用</a></li>
+									<li><a href="#">配送时效</a></li>
+									<li><a href="#">签收和验货</a></li>
+								</ul>
+							</div>
+						</div>
+						<footer>
+							<div class="neirong">
+								<!-- <img src="img/floot.jpg" /> -->
+								<span class="mendian">
+									<i><img src="../img/fuw.jpg" /></i>
+									<p>
+										<strong>门店服务</strong>
+										<a href="#">国美商店全国共计2000余家</a>
+									</p>
+								</span>
+								<span class="mendian">
+									<i><img src="../img/fuw.jpg" /></i>
+									<p>
+										<strong>门店服务</strong>
+										<a href="#">国美商店全国共计2000余家</a>
+									</p>
+								</span>
+								<div class="erweim">
+									<img src="../img/gongzhonghao.jpg" />
+									<img src="../img/zhandian.jpg"/>
+									<img src="../img/erweima.jpg"/>
+								</div>
+								<ul class="footnav">
+									<li><a href="#">国美集团</a></li>
+									<li><a href="#">国美管家</a></li>
+									<li><a href="#">关于国美</a></li>
+									<li><a href="#">加入我们</a></li>
+									<li><a href="#">品牌大全</a></li>
+									<li><a href="#">商品专题</a></li>
+									<li><a href="#">商品专题</a></li>
+									<li><a href="#">商品专题</a></li>
+									<li><a href="#">商品专题</a></li>
+									<li><a href="#">商品专题</a></li>
+									<li><a href="#">商品联盟</a></li>
+									<li><a href="#">商家入驻</a></li>
+									<li><a href="#">广告营销</a></li>
+								</ul>
+								<p>本公司游戏产品适合18岁以上成年人使用  违法和不良信息举报电话：021-39900132  互联网药品信息服务资格证编号（京）-经营性-2018-0025</p>
+								<p>网络食品销售第三方平台提供者备案：沪网食备A0015号  网络文化经营许可证沪网文[2017]5537-436号  增值电信业务经营许可证</p>
+								<p>国美在线电子商务有限公司  办公地址:上海市嘉定区沪宜公路3163-3199号一楼A区  客服电话:4008113333  经营证照  出版经营许可证</p>
+								<p>©2000-2019  国美在线电子商务有限公司版权所有  京公安网备11010502027062  沪ICP备11009419号  沪B2-20120004号</p>
+								<div class="tu">
+									<img src="../img/floottu.jpg" />
+								</div>
+							</div>
+							
+						</footer>
+	</body>
+</html>

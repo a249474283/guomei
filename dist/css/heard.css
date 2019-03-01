@@ -1,0 +1,235 @@
+p,h1,h2,ul,figure{
+	margin: 0;
+	padding: 0;
+}
+input{
+	display: block;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+
+header{
+	width: 100%;
+	height: 30px;
+	background: #f8f8f8;
+	border-bottom: 1px solid #f3f3f3;
+}
+header .neirong{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+}
+/* 导航栏左侧 */
+header ._left{
+	float: left;
+}
+header ._left li{
+	float: left;
+	line-height: 30px;
+	margin: 0 10px 0 10px;
+	font-size: 12px;
+}
+header ._left li:nth-child(1){
+	color: #cbcbcb;
+}
+header ._left li:nth-child(1) a,header ._left li:nth-child(2) a{
+	color: #888;
+}
+header ._left li:last-child a{
+	color: #f00;
+}
+header ._left li:last-child{
+	background: url(../img/lihe.jpg) no-repeat right center;
+	width: 65px;
+}
+
+/* 导航右侧 */
+header .neirong ._right{
+	float: right;
+	width: 510px;
+	height: 30px;
+	position: relative;
+}
+header .neirong ._right li{
+	float: left;	
+	line-height: 30px;
+	font-size: 12px;
+	padding: 0 10px;
+	width: 60px;
+	height: 30px;
+}
+header .neirong ._right li a{
+	color: #888;
+}
+header .neirong ._right li:first-child{
+	width: 48px;
+}
+header .neirong ._right li:nth-child(3):hover{
+	border-bottom: none;
+	background: #fff;
+}
+header .neirong ._right li:nth-child(3):hover .qiyecaigou{
+	display: block;
+}
+.qiyecaigou{
+	width: 230px;
+	height: 230px;
+	position: absolute;
+	left: 0px;
+	top: 30px;
+	background: #fff;
+	z-index: 3;
+	border: 1px solid #eee;
+	display: none;
+}
+.qiyecaigou img{
+	display: block;
+	margin: 23px;
+}
+
+
+header .neirong ._right li:nth-child(4){
+	width: 80px;
+	background: url(../img/fuwu.jpg) no-repeat left center;
+}
+header .neirong ._right li:nth-child(4) a,header .neirong ._right li:nth-child(6) a{
+	margin-left: 20px;
+}
+header .neirong ._right li:nth-child(6){
+	width: 80px;
+	background: url(../img/shouji.jpg) no-repeat left center;
+} 
+/* header end */
+
+section{
+	width: 100%;
+	height: 120px;
+	background: #fff;
+}
+section .neirong{
+	width: 1200px;
+	height: 120px;
+	margin: 0 auto;
+}
+section .neirong h1{
+	width: 246px;
+	height: 120px;
+	float: left;
+}
+section .neirong h1 .logo{
+	float: left;
+}
+section .neirong h1 .zhanwei{
+	float: left;
+	padding-top: 30px;
+}
+section .neirong form{
+	width: 498px;
+	height: 30px;
+	border: 1px solid #dd00a7;
+	float: left;
+	margin-top: 30px;
+	margin-left: 140px;
+}
+section .neirong form div{
+	float: left;
+	width: 62px;
+	height: 30px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+	border-right:1px solid #dd00a7;
+	color: #a5a5a5;
+}
+section .neirong form #tex{
+	float: left;
+	border: none;
+	width: 310px;
+	height: 20px;
+	margin: 5px;
+}
+section .neirong form .sousuo{
+	width: 90px;
+	height: 30px;
+	color: #fff;
+	background: #dd00a7;
+	float:right;
+	border: none;
+}
+section .neirong form #sousuol{
+	width: 345px;
+	border: 1px solid #dd00a7;
+	background: #fff;
+	position: absolute;
+	top:101px;
+	left: 524px;
+	border-top:none ;
+	display: none;
+	z-index: 3;
+}
+section .neirong form #sousuol .sousuoli{
+	height: 32px;
+	line-height: 32px;
+}
+section .neirong form #sousuol .sousuoli a{
+		font-size: 12px;
+		color: #5e5e5e;
+	}
+section .neirong .nnav{
+	width: 455px;
+	height: 28px;
+	float: left;
+	margin-left: 140px;
+}
+section .neirong .nnav li{
+	font-size: 12px;
+	margin: 0 4px;
+	float: left;
+	line-height: 28px;
+}
+section .neirong .nnav li:first-child{
+	margin-left: 0;
+}
+section .neirong .nnav li:first-child a{
+	color: #f5004b;
+}
+section .neirong .nnav li a{
+	color: #a5a5a5;
+}
+section .neirong .nnav li:hover a{
+	color: #F5004B;
+}
+
+section .neirong .gouwu{
+	float: right;
+	width: 130px;
+	height: 32px;
+	padding:0 10px;
+	font-size: 12px;
+	color: #bd815e;
+	text-align: center;
+	line-height: 32px;
+	background: url(../img/gouwuche.jpg) no-repeat left center;
+	position: relative;
+	top: -30px;
+}
+section .neirong div .jiao{
+	width: 0px;
+	height: 0px;
+	border-top: 5px solid #5e5e5e;
+	border-bottom: 5px solid #fff;
+	border-left: 5px solid #fff;
+	border-right: 5px solid #fff;
+	float: right;
+	position: relative;
+	top: 15px;
+	right: 10px;
+}
+/* section end */

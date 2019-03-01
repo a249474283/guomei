@@ -1,0 +1,1271 @@
+
+
+nav{
+	width: 100%;
+	height: 40px;
+	background: #f8f8f8;
+}
+nav .neirong{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+	position: relative;
+}
+nav .neirong div{
+	position: absolute;
+	width: 200px;
+	height: 490px;
+	background: rgba(0,0,0,0.2);
+	font-size: 12px;
+	line-height: 40px;
+	color:#686868;
+}
+
+ .lists {
+				position: absolute;
+				width: 200px;
+				box-sizing: border-box;
+				padding: 16px 0 16px 0;
+				background: #6e6568;
+				list-style: none;
+				float: left;
+				z-index: 3;
+			}
+.lists .list a{
+	color: #fff;
+}
+
+.lists .list{
+	width: 190px;
+	line-height: 28px;
+	color: white;
+	font-size: 14px;
+	padding-left: 12px;	
+}
+.lists .list:hover{
+	background:rgba(0,0,0,0.2);
+}
+.lists .list .as{
+	color: #000;
+}
+.list .menu:hover {
+	color: #c81623;
+	z-index: 3;
+}
+			
+			.list .fgx {
+				margin: 0 4px;
+			}
+			
+		
+			
+			.list:hover .box {
+				display: block;
+			}
+			
+			.list .box {
+				display: none;
+				width: 1000px;
+				box-sizing: border-box;
+				position: absolute;
+				top: 0;
+				right: -1000px;
+				background: #fff;
+				padding: 20px 0 10px 20px;
+					z-index: 3;
+			}
+			
+			.box p:nth-child(n+2) {
+				padding: 6px 0;
+			}
+			
+			.box p:nth-child(n+2) span {
+				display: inline-block;
+				margin: 4px 0;
+			}
+			
+			.box .tips {
+				display: inline-block;
+				background: #999395;
+				font-size: 12px;
+				height: 24px;
+				line-height: 24px;
+				margin-right: 10px;
+				padding: 0 10px;
+			}
+			
+			.box span:hover {
+				color: red
+			}
+			
+			.box .tips:hover {
+				background: #5c5251;
+				color: #fff;
+			}
+			
+			.box a {
+				display: inline-block;
+				margin-left: 5px;
+				font-size: 12px;
+			}
+			
+			.box .title {
+				vertical-align: top;
+				display: inline-block;
+				width: 70px;
+				text-align: right;
+				font-size: 12px;
+				line-height: 16px;
+				color: #666;
+				font-weight: bold;
+			}
+			
+			.title a {
+				text-align: right;
+			}
+			
+			.tags {
+				vertical-align: top;
+				display: inline-block;
+				color: #666;
+				font-size: 12px;
+				width: 700px;
+				line-height: 16px;
+				margin-left: 15px;
+			}
+			
+			.tag1 {
+				padding: 0 10px;
+				border-left: 1px solid #e0e0e0;
+				font-weight: 700;
+				color: #c81623;
+				height: 14px;
+				line-height: 14px;
+				border: 1px dotted #db7078;
+			}
+			
+			.tag {
+				padding: 0 10px;
+				border-left: 1px solid #e0e0e0;
+			}
+			
+			.imgBox {
+				box-sizing: border-box;
+				width: 198px;
+				height: 424px;
+				position: absolute;
+				top: 20px;
+				right: 0;
+				padding: 0 14px 0 15px;
+			}
+			
+			.sImg {
+				display: inline-block;
+				float: left;
+				width: 83px;
+				height: 35px;
+				margin-right: 1px;
+				margin-top: 1px;
+			}
+			
+			.bImg {
+				width: 168px;
+				height: 134px;
+				margin-top: 1px;
+				display: block;
+				float: left;
+			}
+			
+			.imgBox img:nth-of-type(9) {
+				margin-top: 10px;
+			}
+
+
+
+
+nav .neirong .nnav{
+	float: left;
+	width: 640px;
+	height: 40px;
+	position: relative;
+	left: 200px;
+}
+nav .neirong ._right{
+	float:right;
+
+}
+nav .neirong ._right li{
+	float: left;
+	font-size: 14px;
+	line-height: 40px;
+} 
+nav .neirong ._right li a{
+	color: #000;
+	padding: 0 14px;
+}
+nav .neirong ._right li:hover a{
+	color: #f5004b;
+}
+nav .neirong ._right li:nth-child(2) a,nav .neirong ul li:nth-child(7) a{
+	border-right: 1px solid #b2b2b2;
+}
+/* nav end */
+
+#banner{
+	width: 100%;
+	height: 450px;
+	background: #f0f;
+}
+#banner .neirong{
+	width: 1200px;
+	height: 450px;
+	margin: 0 auto;
+	position: relative;
+}
+#banner .neirong #lunbo{
+	width: 750px;
+	height: 450px;
+	position: absolute;
+	left: 200px;
+}
+#banner .neirong #lunbo img{
+	position: absolute;
+}
+#banner .neirong .gun{
+	width: 304px;
+	height: 5px;
+	position: absolute;
+	left: 420px;
+	top: 430px;
+}
+#banner .neirong .gun li{
+	width: 30px;
+	height: 5px;
+	background: rgba(0,0,0,0.3);
+	margin: 0 4px;
+	float: left;
+}
+
+#banner .neirong #shang,#banner .neirong #xia{
+	color: #fff;
+	display: block;
+	width: 40px;
+	height: 80px;
+	background: rgba(0,0,0,0.2);
+	text-align: center;
+	line-height: 80px;
+	font-size: 20px;
+}
+#banner .neirong #shang{
+	position: absolute;
+	top: 185px;
+	right: 290px;
+}
+#banner .neirong #xia{
+	position: absolute;
+	top: 185px;
+	right: 250px;
+}
+#banner .neirong ._right{
+	width: 250px;
+	height: 440px;
+	background: #f9e6e6;
+	float: right;
+	margin-top: 4px;
+}
+#banner .neirong ._right ._top{
+	width: 200px;
+	height: 145px;
+	margin: 0 auto;
+	border-bottom:1px dashed #ccc ;
+}
+#banner .neirong ._right ._top ul li{
+	width: 200px;
+	height: 26px;
+	line-height: 26px;
+}
+#banner .neirong ._right ._top ul li span{
+	display: block;
+	float: left;
+	font-size: 12px;
+	color: #888;
+	margin-right: 8px;
+	
+}
+#banner .neirong ._right ._top ul li a{
+	font-size: 12px;
+	color: #7f5e5e;
+}
+#banner .neirong ._right ._top ul li a:hover{
+	color: #f5004b;
+}
+#banner .neirong ._right ._top ul li:nth-child(1){
+		width: 200px;
+		height: 30px;
+}
+#banner .neirong ._right ._top ul li:nth-child(1) h2{
+		float: left;
+		width: 30px;
+		font-size: 14px;
+		line-height: 30px;
+}
+#banner .neirong ._right ._top ul li:nth-child(1) a{
+	display: block;
+	float: left;
+	color: #888;
+	font-size: 12px;
+	float: right;
+	line-height: 30px;
+}
+
+#banner .neirong ._center{
+	width: 250px;
+	height: 145px;
+	margin: 0 auto;
+}
+#banner .neirong ._center figure{
+	width: 80px;
+	height: 80px;
+	float: left;
+	
+}
+#banner .neirong ._center figure img{
+	margin: 0 auto;
+	margin-top: 12px;
+}
+#banner .neirong ._center figure span{
+	display: block;
+	font-size: 12px;
+	line-height: 36px;
+	text-align: center;
+}
+#banner .neirong ._center figure:nth-child(1),#banner .neirong ._center figure:nth-child(2),#banner .neirong ._center figure:nth-child(3){
+	background: url(../img/sanjiao.gif) no-repeat center bottom;
+}
+#banner .neirong ._center figure:nth-child(3) span{
+	position: relative;
+	top: 3px;
+}
+#banner .neirong ._bottom{
+	width: 250px;
+	height: 129px;
+	margin: 0 auto;
+}
+#banner .neirong ._bottom img{
+	
+}
+
+/* banner end */
+
+
+.taotao{
+	width: 100%;
+	height: 480px;
+}
+.taotao .neirong{
+	width: 1200px;
+	height: 480px;
+	margin: 0 auto;
+}
+.taotao .neirong ._left{
+	width: 420px;
+	height: 480px;
+	float: left;
+}
+.taotao .neirong ._left h1{
+	width: 385px;
+	height: 40px;
+	margin-top: 20px;
+	font-weight: 100;
+	background: url(../img/tao.jpg) no-repeat left center;
+	font-size: 20px;
+	line-height: 40px;
+	padding-left: 35px;
+}
+.taotao .neirong span{
+	font-size: 16px;
+	color: #ccc;
+}
+.taotao .neirong ._left .tu{
+	width: 418px;
+	height: 419px;
+	border: 1px solid #eee;
+}
+.taotao .neirong ._left .tu .huashuo{
+		float: left;
+}
+.taotao .neirong ._left .tu .qiang{
+		float: left;
+}
+.taotao .neirong ._left .tu .tuan{
+		float: left;
+		border-top: 1px dashed #eee;
+}
+.taotao .neirong ._right{
+	width: 340px;
+	height: 480px;
+	float: right;
+}
+.taotao .neirong ._right h1{
+	width: 345px;
+	height: 40px;
+	margin-top: 20px;
+	font-weight: 100;
+	background: url(../img/tao.jpg) no-repeat left center;
+	font-size: 20px;
+	line-height: 40px;
+	padding-left: 35px;
+}
+.taotao .neirong ._right .tu{
+	width: 339px;
+	height: 419px;
+	border: 1px solid #eee;
+}
+.taotao .neirong ._right .tu .left{
+	width: 230px;
+	height: 420px;
+	float: left;
+}
+.taotao .neirong ._right .tu .right{
+	width: 109px;
+	height: 420px;
+	float: left;
+}
+.taotao .neirong ._right .tu .right li{
+	width: 109px;
+	display: block;
+	padding:15px 0px;
+	border-bottom:1px dashed #efefef;
+}
+.taotao .neirong ._right .tu .right li:last-child{
+	border: none;
+}
+.taotao .neirong ._right .tu .right a img{
+	line-height: 60px;
+	margin: 0 auto;
+}
+/* taotao end */
+
+.youhui{
+	width: 100%;
+	height: 110px;
+	margin: 20px 0;
+}
+.youhui .neirong{
+	width: 1200px;
+	height: 110px;
+	margin: 0 auto;
+}
+/* youhui end */
+
+.jinrong{
+	width: 100%;
+	height:270px;
+	margin-top: 20px;
+}
+.jinrong .neirong{
+	width: 1200px;
+	height: 270px;
+	margin: 0 auto;
+	position: relative;
+}
+.jinrong .neirong h2{
+	width: 1200px;
+	height: 40px;
+	font-weight: 100;
+	font-size: 18px;
+	line-height: 40px;
+}
+.jinrong .neirong h2 span{
+	color: #d5d5d5;
+}
+.jinrong .neirong ul li{
+	width: 194px;
+	height: 228px;
+	float: left;
+	border-right: 1px dashed #eee;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.jinrong .neirong ul li:first-child{
+	width: 420px;
+	height: 230px;
+	border: none;
+}
+.jinrong .neirong ul li:last-child{
+	border-right: 1px solid #eee;
+}
+.jinrong .neirong .jinrongT{
+	display: block;
+	width: 97px;
+	height: 28px;
+	background: #b9892b;
+	color: #fff;
+	font-size: 12px;
+	position: absolute;
+	left: 60px;
+	top: 190px;
+	text-align: center;
+	line-height: 28px;
+	border-radius: 1px 1px 1px 1px;
+	border: 1px solid #B9892B;
+	z-index: 3;
+}
+/* jinrong end */
+
+.caixi{
+	width: 100%;
+	height: 306px;
+	margin-bottom: 40px;
+}
+.caixi .neirong{
+	width: 1200px;
+	height: 306px;
+	margin: 0 auto;
+}
+.caixi .neirong h2{
+	width: 1200px;
+	height: 40px;
+	font-weight: 100;
+	font-size: 18px;
+	line-height: 40px;
+}
+.caixi .neirong h2 span{
+	color: #d5d5d5;
+}
+.caixi .neirong h2 #shang1,.caixi .neirong h2 #xia1{
+	width: 22px;
+	height: 22px;
+	color: #5e5e5e;
+	border-radius: 11px 11px 11px 11px;
+	border: 1px solid #cecece;
+	float: right;
+	font-size: 12px;
+	background: url(../img/zuo.gif) no-repeat center center;
+	margin-top: 10px;
+}
+.caixi .neirong h2 #shang1,.caixi .neirong h2 #shang1{
+	width: 22px;
+	height: 22px;
+	color: #5e5e5e;
+	border-radius: 11px 11px 11px 11px;
+	border: 1px solid #cecece;
+	float: right;
+	font-size: 12px;
+	background: url(../img/you.gif) no-repeat center center;
+	line-height: 40px;
+	margin-top: 10px;
+}
+.caixi .neirong .tu{
+	width: 1200px;
+	height: 265px;
+	border: 1px solid #eee;
+	margin-bottom: 40px;
+}
+.caixi .neirong figure{
+	float: left;
+	width: 199px;
+	height: 230px;
+	margin-top: 35px;
+	border-right: 1px dashed #eee;
+}
+.caixi .neirong figure:hover a{
+	color: #FF0027;
+}
+.caixi .neirong figure img{
+	margin: 0 auto;
+}
+.caixi .neirong figure a{
+	display: block;
+	width: 170px;
+	color: #5e5e5e;
+	margin: 0 auto;
+	font-size: 12px;
+	line-height: 18px;
+}
+.caixi .neirong figure span{
+	display: block;
+	width: 170px;
+	color: #ff0027;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 32px;
+}
+/* caixi end */
+
+.rnav{
+	width:35px;
+	height: 660px;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	background: rgba(0,0,0,0.6);
+}
+.rnav ._top{
+	width: 19px;
+	height: 200px;
+	margin:0 auto;
+}
+.rnav ._top li:first-of-type{
+	width: 19px;
+	height: 40px;
+	margin-top: 130px;
+	border-bottom: 1px solid #cecece;
+	line-height: 40px;
+}
+.rnav ._top li:nth-child(2){
+	width: 19px;
+	height: 120px;
+	border-bottom: 1px solid #cecece;
+	text-align: center;
+	color: #fff;
+}
+.rnav ._top li:nth-child(3){
+	width: 19px;
+	height: 40px;
+	border-bottom: 1px solid #cecece;
+}
+.rnav ._bottom {
+	
+	width: 19px;
+	margin: 0 auto;
+	margin-top: 110px;
+}
+.rnav ._bottom li{
+	width: 19px;
+	padding: 10px 0;
+	color: #fff;
+	text-align: center;
+}
+
+/* 以上是右侧固定导航 */
+.bimai{
+	width: 100%;
+	height: 425px;
+	background: #f7f7f7;
+}
+.bimai .neirong{
+	width: 1200px;
+	height: 425px;
+	margin: 0 auto;
+}
+.bimai .neirong ._left{
+	width: 940px;
+	height: 425px;
+	float: left;
+}
+.bimai .neirong ._left h2{
+	width: 940px;
+	height: 36px;
+	font-size: 18px;
+	line-height: 36px;
+	margin-top: 22px;
+}
+.bimai .neirong ._left h2 span{
+	font-size: 12px;
+	font-weight: 100;
+	display: block;
+	color: 888;
+	float: right;
+	line-height: 36px;
+}
+.bimai .neirong ._left figure{
+	width: 309px;
+	height: 330px;
+	float: left;
+	position: relative;
+}
+.bimai .neirong ._left figure img{
+	width: 309px;
+}
+.bimai .neirong ._left figure:nth-of-type(2){
+	margin: 0 6px;
+}
+.bimai .neirong ._left figure a{
+	display: block;
+}
+.bimai .neirong ._left figure a:first-of-type{
+	color: #333;
+	font-size: 16px;
+	margin-left: 20px;
+}
+.bimai .neirong ._left figure a:last-of-type{
+	color: #5e5e5e;
+	font-size: 12px;
+	margin-left: 20px;
+}
+.bimai .neirong ._left figure span{
+	display: block;
+	width: 35px;
+	height: 15px;
+	padding-left: 20px;
+}
+.bimai .neirong ._left figure span:first-of-type{
+	background: url(../img/zan.jpg) no-repeat left center;
+	font-size: 12px;
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}
+.bimai .neirong ._left figure span:last-of-type{
+	background: url(../img/yan.jpg) no-repeat left center;
+	font-size: 12px;
+	position: absolute;
+	left: 105px;
+	bottom: 20px;
+}
+.bimai .neirong ._right{
+	width: 245px;
+	height: 425px;
+	float: right;
+}
+.bimai .neirong ._right h2{
+	width: 245px;
+	height: 36px;
+	font-size: 18px;
+	line-height: 36px;
+	margin-top: 22px;
+}
+.bimai .neirong ._right h2 span{
+	font-size: 12px;
+	font-weight: 100;
+	display: block;
+	color: 888;
+	float: right;
+	line-height: 36px;
+}
+.bimai .neirong ._right figure{
+	width: 215px;
+	height: 190px;
+	background: #fff;
+	padding: 15px;
+	border-bottom:1px dashed #5e5e5e ;
+}
+.bimai .neirong ._right figure span{
+	display: block;
+	font-size: 12px;
+}
+.bimai .neirong ._right figure span:nth-of-type(1){
+	width: 40px;
+	height: 15px;
+	border: 1px solid #ff7612;
+	border-radius: 1px;
+	background: #ff7612;
+	color: #fff;
+	line-height: 15px;
+	position: relative;
+	top:15px;
+	
+}
+.bimai .neirong ._right figure span:nth-of-type(2){
+	width: 40px;
+	height: 15px;
+	line-height: 15px;
+	position: relative;
+	left: 45px;
+}
+.bimai .neirong ._right figure span:nth-of-type(3){
+	width: 55px;
+	height: 15px;
+	color: #5e5e5e;
+	line-height: 15px;
+}
+.bimai .neirong ._right figure span:nth-of-type(4){
+	width: 50px;
+	height: 15px;
+	color: #5e5e5e;
+	line-height: 15px;
+	position: relative;
+	left: 60px;
+	top: -15px;
+}
+.bimai .neirong ._right .huati{
+	width: 205px;
+	height: 119px;
+	padding-left: 25px;
+	padding-top: 15px;
+}
+.bimai .neirong ._right .huati a{
+	color: #5e5e5e;
+	font-size: 12px;
+	display: block;
+	margin: 5px 0;
+}
+/* bimai end */
+
+article{
+	width: 100%;
+	height: 540px;
+}
+article .neirong{
+	width: 1200px;
+	height: 540px;
+	margin: 0 auto;
+}
+article .neirong h2{
+	width: 1200px;
+	height: 38px;
+	font-size: 18px;
+	line-height: 38px;
+	border-bottom: 1px solid #7AA3F3;
+}
+article .neirong h2 ul{
+	float: right;
+	height: 38px;
+}
+article .neirong h2 ul li{
+	float: left;
+	padding: 5px 15px;
+	font-weight: 100;
+	font-size: 16px;
+}
+article .neirong h2 ul li a{
+	color: #000;
+}
+
+article .neirong ._left{
+	width: 210px;
+	height: 470px;
+	background: #7aa3f3;
+	float: left;
+}
+article .neirong ._left img{
+	margin-left: -10px;
+}
+article .neirong ._left .nav{
+		width: 200px;
+		height: 30px;
+		line-height: 30px;
+		background: #6294f6;
+		padding-left: 10px;
+		color: #fff;
+}
+article .neirong ._left .nav a{
+	color: #fff;
+}
+article .neirong ._left ul li{
+	font-size: 12px;
+	height: 12px;
+	margin: 10px 0;
+}
+article .neirong ._left ul li a{
+	display: block;
+	min-width: 50px;
+	color: #fff;
+	float: left;
+	margin: 0 10px;
+}
+article .neirong ._center{
+	width: 390px;
+	height: 470px;
+	float: left;
+	position: relative;
+}
+article .neirong ._center ._logo{
+	width: 370px;
+	height: 105px;
+	position: absolute;
+	left: 10px;
+	top: 359px;
+}
+article .neirong ._center ._logo img{
+	display: block;
+	float: left;
+	margin-left:1px;
+	margin-top: 1px;
+	width: 100px;
+	height: 30px;
+	padding: 10px 10px;
+	background: #e7e7e7;
+}
+article .neirong ._right{
+	width: 600px;
+	height: 470px;
+	float: right;
+	
+}
+article .neirong ._right figure{
+	float: left;
+	width: 199px;
+	height: 235px;
+	border-right:1px solid #eee ;
+	border-bottom:1px solid #eee ;
+}
+
+.guanggao{
+	width: 100%;
+	height: 100px;
+	margin-bottom: 20px;
+}
+.guanggao .neirong{
+	width: 1200px;
+	height: 1200px;
+	margin: 0 auto;
+}
+/* 1-8F end */
+
+.zhujian{
+	width: 100%;
+	height: 330px;
+}
+.zhujian .neirong{
+	width: 1200px;
+	height: 330px;
+	margin: 0 auto;
+}
+.zhujian .neirong h2{
+	width: 100%;
+	height: 40px;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 40px;
+}
+.zhujian .neirong figure{
+	width: 295px;
+	height: 290px;
+	float: left;
+	margin: 0 2px;
+}
+.zhujian .neirong figure img{
+	float: left;
+	width: 98px;
+	height: 98px;
+}
+.zhujian .neirong figure img:first-of-type{
+	width: 294px;
+	height: 152px;
+}
+/* zhujian END */
+
+.shenghuo{
+	width:100%;
+	height: 460px;
+	background: #f0f0f0;
+}
+.shenghuo .neirong{
+		width: 1200px;
+		height: 460px;
+		margin: 0 auto;
+
+}
+ .shenghuo .neirong ._left{
+	width: 496px;
+	height: 400px;
+	float: left;
+	position: relative;
+}
+.shenghuo .neirong ._left img:nth-of-type(1){
+	float: left;
+	
+}
+.shenghuo .neirong ._left img:nth-of-type(2){
+	margin-bottom: 2px;
+}
+.shenghuo .neirong ._left img:nth-of-type(2),.shenghuo .neirong ._left img:nth-of-type(3){
+	float: right;
+	margin-left: 1px;
+}
+.shenghuo .neirong ._left .pindao{
+	width: 280px;
+	height: 40px;
+	color: #fff;
+	background: rgba(0,0,0,0.3);
+	line-height: 40px;
+	font-size: 12px;
+	padding-left: 15px;
+	position: absolute;
+	top: 247px;
+}
+.shenghuo .neirong ._left .pindao span{
+	border: 1px solid #fff;
+	border-radius: 1px;
+	padding: 2px;
+}
+.shenghuo .neirong ._left ._center{
+	width: 280px;
+	height: 35px;
+	background: #3abe8f;
+	color:#fff;
+	line-height: 35px;
+	padding-left: 15px;
+	float: left;
+}
+.shenghuo .neirong ._left ._center a{
+	color:#fff;
+	font-size: 12px;
+}
+.shenghuo .neirong ._left ._bottom{
+	width: 280px;
+	height: 65px;
+	padding-left: 15px;
+	background: #62c8a3;
+	padding-top: 15px;
+	float: left;
+}
+.shenghuo .neirong ._left ._bottom a{
+	color: #fff;
+	font-size: 12px;
+	display: block;
+	margin: 5px 0;
+}
+.shenghuo .neirong ._right{
+	width: 700px;
+	height: 400px;
+	float: right;
+	position: relative;
+}
+.shenghuo .neirong ._right ._left{
+	width: 295px;
+	height: 400px;
+}
+.shenghuo .neirong ._right ._left img:nth-of-type(1){
+	float: left;
+}
+.shenghuo .neirong ._right ._left .pindao{
+	width: 280px;
+	height: 40px;
+	color: #fff;
+	background: rgba(0,0,0,0.3);
+	line-height: 40px;
+	font-size: 12px;
+	padding-left: 15px;
+	position: absolute;
+	top: 247px;
+}
+.shenghuo .neirong ._right ._left .pindao span{
+	border: 1px solid #fff;
+	border-radius: 1px;
+	padding: 2px;
+}
+.shenghuo .neirong ._right ._left ._center{
+	width: 280px;
+	height: 35px;
+	background: #3abe8f;
+	color:#fff;
+	line-height: 35px;
+	padding-left: 15px;
+	float: left;
+}
+.shenghuo .neirong ._right ._left ._center a{
+	color:#fff;
+	font-size: 12px;
+}
+.shenghuo .neirong ._right ._left ._bottom{
+	width: 280px;
+	height: 65px;
+	padding-left: 15px;
+	background: #62c8a3;
+	padding-top: 15px;
+	float: left;
+}
+.shenghuo .neirong ._right ._left ._bottom a{
+	color: #fff;
+	font-size: 12px;
+	display: block;
+	margin: 5px 0;
+}
+.shenghuo .neirong ._right ._right{
+	width: 405px;
+	height: 400px;
+	float: right;
+}
+.shenghuo .neirong ._right ._right img:nth-of-type(1),.shenghuo .neirong ._right ._right img:nth-of-type(2),.shenghuo .neirong ._right ._right img:nth-of-type(3),.shenghuo .neirong ._right ._right img:nth-of-type(4){
+	float: left;
+}
+.shenghuo .neirong ._right ._right img:nth-of-type(1),.shenghuo .neirong ._right ._right img:nth-of-type(2){
+	margin-bottom: 2px;
+}
+
+.shenghuo .neirong ._right ._right img:nth-of-type(1),.shenghuo .neirong ._right ._right img:nth-of-type(3){
+	margin-right: 1px;
+}
+
+/* shenghuo END */
+
+.rexiao{
+	width: 100%;
+	height: 450px;
+}
+.rexiao .neirong{
+	width: 1200px;
+	height: 450px;
+	margin: 0 auto;
+}
+.rexiao .neirong ._left{
+	width: 830px;
+	height: 420px;
+	float: left;
+	border: 1px solid #eee;
+}
+.rexiao .neirong ._left h2{
+	width: 830px;
+	height: 42px;
+	font-size: 18px;
+	font-weight: 100;
+}
+.rexiao .neirong ._left h2 span:nth-of-type(1){
+	float: left;
+	line-height: 42px;
+}
+.rexiao .neirong ._left h2 span:nth-of-type(2){
+	float: left;
+	color: #ccc;
+	line-height: 42px;
+}
+.rexiao .neirong ._left h2 span:nth-of-type(3){
+	float: right;
+	color: #5e5e5e;
+	font-size: 12px;
+	line-height: 42px;
+}
+.rexiao .neirong ._left .left{
+	width: 270px;
+	height: 280px;
+	float: left;
+}
+.rexiao .neirong ._left .left img{
+	margin: 0 auto;
+}
+.rexiao .neirong ._left .left a{
+	width: 250px;
+	display: block;
+	font-size: 16px;
+	margin: 0 auto;
+	color: #000;
+}
+.rexiao .neirong ._left .left:hover a{
+	color: #f00;
+}
+.rexiao .neirong ._left .left span{
+	display: block;
+	width: 80px;
+	height: 12px;
+	font-size: 12px;
+	color: #f00;
+	margin: 0 auto;
+}
+.rexiao .neirong ._left .right{
+	width: 550px;
+	height: 335px;
+	float: right;
+}
+.rexiao .neirong ._left .right figure{
+	width: 274px;
+	height: 164px;
+	float: left;
+}
+.rexiao .neirong ._left .right figure:nth-of-type(1),.rexiao .neirong ._left .right figure:nth-of-type(2){
+	border-bottom: 1px dotted #eee;
+}
+.rexiao .neirong ._left .right figure:nth-of-type(1),.rexiao .neirong ._left .right figure:nth-of-type(3){
+	border-right: 1px dotted #eee;
+}
+.rexiao .neirong ._left .right figure img{
+	width: 120px;
+	height: 120px;
+	margin-top: 22px;
+	float: left;
+}
+
+.rexiao .neirong ._left .right figure a{
+	margin-top: 22px;
+	width: 115px;
+	display: block;
+	font-size: 12px;
+
+	color: #000;
+	float: right;
+}
+.rexiao .neirong ._left .right figure a:hover{
+	color: #f00;
+}
+.rexiao .neirong ._left .right figure span{
+	display: block;
+	width: 80px;
+	height: 12px;
+	font-size: 12px;
+	color: #f00;
+	float: right;
+}
+.rexiao .neirong ._right{
+	width: 360px;
+	height: 420px;
+	float: right;
+}
+.rexiao .neirong ._right h2{
+	width: 360px;
+	height: 42px;
+	font-size: 18px;
+	line-height: 42px;
+	font-weight: 100;
+}
+.rexiao .neirong ._right h2 span:nth-of-type(1){
+	display: block;
+	width: 80px;
+	height: 42px;
+	float: left;
+}
+.rexiao .neirong ._right h2 span:nth-of-type(2){
+	display: block;
+	width: 95px;
+	height: 42px;
+	color: #ccc;
+	float: left;
+}
+.rexiao .neirong ._right h2 div{
+	float: right;
+}
+.rexiao .neirong ._right h2 a{
+	font-size: 12px;
+	color: #000;
+	display: block;
+	float: left;
+}
+.rexiao .neirong ._right h2 a:hover{
+	color: #f00;
+}
+.rexiao .neirong ._right ._bottom{
+	width: 360px;
+	height: 378px;
+	border: 1px solid #cecece;
+}
+.rexiao .neirong ._right ._bottom figure{
+	width:340px;
+	height: 169px;
+	padding-right: 20px;
+}
+.rexiao .neirong ._right ._bottom figure:nth-of-type(1){
+	margin-bottom: 20px;
+}
+.rexiao .neirong ._right ._bottom figure img{
+	float: left;
+}
+.rexiao .neirong ._right ._bottom figure a{
+	display: block;
+	margin-top: 16px;
+	height: 33px;
+	color: #000;
+	font-size: 16px;
+	line-height: 33px;
+	float: right;
+	
+}
+
+.rexiao .neirong ._right ._bottom figure span{
+	font-size: 12px;
+	color: #b796a5;
+	display: block;
+	float: right;
+}
+.rexiao .neirong ._right ._bottom figure span:nth-of-type(1){
+	float: right;
+	color: #f00;
+	font-size: 16px;
+	height: 30px;
+	
+}
+.rexiao .neirong ._right ._bottom figure span:nth-of-type(2){
+	margin-top: 34px;
+}
+/* rexiao END */
+
